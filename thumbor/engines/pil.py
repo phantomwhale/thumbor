@@ -43,7 +43,7 @@ FORMATS = {
     ".webp": "WEBP",
 }
 
-ImageFile.MAXBLOCK = 2 ** 25
+ImageFile.MAXBLOCK = 2 ** 26
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 DECOMPRESSION_BOMB_EXCEPTIONS = (Image.DecompressionBombWarning,)
